@@ -23,6 +23,9 @@ APP_GROUP_ID = group.dev.diegopandolfo.mrtracker
 // see Config/Local.xcconfig.example.
 APP_DEVELOPMENT_TEAM =
 
+// Required for notarization (Developer ID distribution).
+ENABLE_HARDENED_RUNTIME = YES
+
 // Per-developer overrides (team, and optionally your own bundle/App Group IDs).
 // Optional include: builds fine without the file.
 #include? "Local.xcconfig"
