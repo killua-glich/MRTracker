@@ -139,9 +139,8 @@ struct MergeRequestRow: View {
     .frame(width: 460)
 }
 
-#if DEBUG
-/// Preview-only fixture builder, kept next to the row it previews (not test-only, so it's
-/// `#if DEBUG` rather than living under `MyAppTests`).
+/// Preview-only fixture builder, kept next to the row it previews. Not `#if DEBUG`:
+/// `#Preview` bodies are type-checked in Release builds too.
 extension MergeRequestSnapshot {
     static func preview(
         iid: Int,
@@ -176,4 +175,3 @@ extension MergeRequestSnapshot {
         )
     }
 }
-#endif
