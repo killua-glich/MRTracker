@@ -1,0 +1,8 @@
+xcuserdata/
+DerivedData/
+.DS_Store
+*.xcuserstate
+build/
+
+# Per-developer signing overrides
+Config/Local.xcconfig

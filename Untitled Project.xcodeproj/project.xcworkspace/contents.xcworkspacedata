@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "self:">
+   </FileRef>
+   <Group
+      location = "group:MyApp"
+      name = "MyApp">
+   </Group>
+   <Group
+      location = "group:Shared"
+      name = "Shared">
+      <FileRef
+         location = "group:AppGroup.swift">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:MyAppSources"
+      name = "MyAppSources">
+      <FileRef
+         location = "group:MyAppApp.swift">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:MRTrackerWidget"
+      name = "MRTrackerWidget">
+      <FileRef
+         location = "group:ScratchProbe.swift">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:MyAppTests"
+      name = "MyAppTests">
+      <FileRef
+         location = "group:ModelCodingTests.swift">
+      </FileRef>
+   </Group>
+</Workspace>

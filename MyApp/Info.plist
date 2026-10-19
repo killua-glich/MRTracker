@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Merged with the generated Info.plist. Value comes from Config/App.xcconfig;
+	     read at runtime by Shared/AppGroup.swift. -->
+	<key>AppGroupIdentifier</key>
+	<string>$(APP_GROUP_ID)</string>
+</dict>
+</plist>

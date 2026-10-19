@@ -1,0 +1,28 @@
+// App identity — the ONLY place to change name, IDs, App Group and signing team.
+//
+// Used by the project as its base configuration (Debug + Release), so both the app and
+// the widget extension pick these up: bundle IDs, product name, entitlements (App Group)
+// and Info.plist (the App Group ID the Swift code reads at runtime).
+//
+// After changing a value: Product → Clean Build Folder, then build. If you change
+// APP_GROUP_ID or APP_BUNDLE_ID, Xcode's automatic signing registers the new IDs with
+// your team on the next build (Signing & Capabilities may ask you to confirm).
+
+// Name shown in Finder, the menu bar, Settings window and widget gallery.
+APP_DISPLAY_NAME = MR Tracker
+
+// Reverse-DNS bundle ID of the app. The widget uses "$(APP_BUNDLE_ID).MRTrackerWidget",
+// the tests "$(APP_BUNDLE_ID).tests". Also the Keychain service name for the token.
+APP_BUNDLE_ID = dev.diegopandolfo.MRTracker
+
+// App Group shared by app and widget (snapshot file). macOS: must start with "group.".
+APP_GROUP_ID = group.dev.diegopandolfo.mrtracker
+
+// Your Apple Developer Team ID (Xcode → Settings → Accounts, or developer.apple.com →
+// Membership). Kept empty in the repo — set it in Config/Local.xcconfig (git-ignored),
+// see Config/Local.xcconfig.example.
+APP_DEVELOPMENT_TEAM =
+
+// Per-developer overrides (team, and optionally your own bundle/App Group IDs).
+// Optional include: builds fine without the file.
+#include? "Local.xcconfig"

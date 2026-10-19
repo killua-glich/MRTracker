@@ -1,0 +1,9 @@
+// Copy to Config/Local.xcconfig (git-ignored) and fill in. Values here override
+// Config/App.xcconfig, so you can sign with your own team without editing tracked files.
+
+// Required: your Apple Developer Team ID.
+APP_DEVELOPMENT_TEAM = YOURTEAMID
+
+// Optional: use your own IDs (needed if the defaults are registered to someone else's team).
+// APP_BUNDLE_ID = dev.yourname.MRTracker
+// APP_GROUP_ID  = group.dev.yourname.mrtracker
