@@ -7,6 +7,9 @@ threads, drafts and conflicts — without opening GitLab in a browser.
 Works with gitlab.com and self-hosted GitLab. Read-only: it never changes anything in
 GitLab.
 
+<img width="725" height="326" alt="image" src="https://github.com/user-attachments/assets/7c6492d8-4129-4e50-9aa6-cc266fcdff25" />
+
+
 ## Download
 
 Get the latest `MR-Tracker-x.y.zip` from
